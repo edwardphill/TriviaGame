@@ -1,0 +1,85 @@
+.container {
+    background-image: url(/assets/images/pano.jpeg);
+}
+
+.content {
+    display: inline-block;
+}
+
+.h1 {
+    color: white;
+    background: darkseagreen;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+    border: black solid 1px;
+    padding: 2%;
+    font-size: xx-large;
+}
+
+.h2 {
+    color: white;
+    background: darkseagreen;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    border: black solid 1px;
+    font-size: large;
+    margin: 5px;
+    padding: 2%;
+}
+
+.h4 {
+    margin-bottom: 2%;
+}
+
+.q1 {
+    background-color: #add8e6;
+    margin: 5px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 2%;
+}
+
+.q2 {
+    background-color: #add8e6;
+    margin: 5px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 2%;
+}
+
+.q3 {
+    background-color: #add8e6;
+    margin: 5px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 2%;
+}
+
+.q4 {
+    background-color: #add8e6;
+    margin: 5px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 2%;
+}
+
+.q5 {
+    background-color: #add8e6;
+    margin: 5px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 2%;
+}
+
+.q6 {
+    background-color: #add8e6;
+    margin: 5px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 2%;
+}
