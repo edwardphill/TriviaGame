@@ -15,7 +15,7 @@ currentQuestion++;
   }, 1000);
 
   */
-
+var i;
 var questions = [
   {
     questionText:
@@ -73,7 +73,27 @@ var questions = [
   }
 ];
 
-$("#question").html(questions[1].questionText);
+$("#timer").text("00:00");
+
+//  Start on click.
+$(window).on("click", function() {
+  //  Set the button alert's timeout to run three seconds after the function's called.
+  delayButtonAlert = setTimeout(function() {
+    console.log("10 seconds is up, question expires");
+  }, 10 * 1000);
+});
+
+for (i = 0; i < questions.length; i++) {
+  $("#question").html(questions[i].questionText);
+  $("#choice-A").html(questions[i].choices[0]);
+  $("#choice-B").html(questions[i].choices[1]);
+  $("#choice-C").html(questions[i].choices[2]);
+  $("#choice-D").html(questions[i].choices[3]);
+}
+
+if ((questions[i].answer = questions[i].choices[j])) {
+  //add to total score, stop timeout
+}
 
 // display only q1,
 // index or answer
