@@ -83,13 +83,16 @@ $(window).on("click", function() {
   }, 10 * 1000);
 });
 
-for (i = 0; i < questions.length; i++) {
-  $("#question").html(questions[i].questionText);
-  $("#choice-A").html(questions[i].choices[0]);
-  $("#choice-B").html(questions[i].choices[1]);
-  $("#choice-C").html(questions[i].choices[2]);
-  $("#choice-D").html(questions[i].choices[3]);
-}
+var math = Math.floor(Math.random() * questions.length);
+console.log(math);
+
+//for (i = 0; i < questions.length; i++) {
+$("#question").html(questions[math].questionText);
+$("#choice-A").html(questions[math].choices[0]);
+$("#choice-B").html(questions[math].choices[1]);
+$("#choice-C").html(questions[math].choices[2]);
+$("#choice-D").html(questions[math].choices[3]);
+//}
 
 if ((questions[i].answer = questions[i].choices[j])) {
   //add to total score, stop timeout
