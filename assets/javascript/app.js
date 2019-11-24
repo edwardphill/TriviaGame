@@ -21,55 +21,52 @@ var questions = [
     questionText:
       "Who is attributed as writing the first peice of fishing literature ever and at what date?",
     choices: [
-      "A. Dame Juliana Berners, 'A Treatyse of Fysshynge wyth an Angle', 1486",
+      "Dame Juliana Berners, 'A Treatyse of Fysshynge wyth an Angle', 1486",
       "Brad Pitt, 'A River Runs Through It', 1992",
       "Ernest Hemingway, 'Old Man And The Sea', 1952",
       "Izaak Walton, 'Compleat Angler', 1653"
     ],
-    answer: "A"
+    answer:
+      "Dame Juliana Berners, 'A Treatyse of Fysshynge wyth an Angle', 1486"
   },
 
   {
     questionText:
       "Who is wideley credited as being the first angler to us  artificial flies (ie, not worms live bait)?",
     choices: [
-      "A. Jeremy Wade in 2011 on Discovery Channel's TV show 'River Monsters'",
-      "B. Roman author Claudius Aelianus near the end of the 2nd century.C. Teddy Roosevelt, 1914 in the Amzon Rainforest.",
-      "C. Teddy Roosevelt, 1914 in the Amzon Rainforest",
-      "D. No one does this."
+      "Jeremy Wade in 2011 on Discovery Channel's TV show 'River Monsters'",
+      "Roman author Claudius Aelianus near the end of the 2nd century",
+      "Teddy Roosevelt, 1914 in the Amzon Rainforest",
+      "No one does this."
     ],
-    answer: "B"
+    answer: "Roman author Claudius Aelianus near the end of the 2nd century"
   },
   {
     questionText: "Catch and release refers to?",
     choices: [
-      "A. A mid-2000's CLASSIC film with Jennifer Garner.",
-      "B. Dating in NYC.",
-      "C. A fishing style where you land the fish and return it back to, the river or ocean to live another day.",
-      "D. When an umpire ejects a catcher from a baseball game."
+      "A mid-2000's CLASSIC film with Jennifer Garner.",
+      "Dating in NYC.",
+      "A fishing style where you land the fish and return it back to, the river or ocean to live another day.",
+      "When an umpire ejects a catcher from a baseball game."
     ],
-    answer: "C"
+    answer:
+      "A fishing style where you land the fish and return it back to, the river or ocean to live another day."
   },
   {
     questionText: "Which of these is NOT a kind or type of fishing?",
-    choices: [
-      "A. Trolling",
-      "B. Fly fishing",
-      "C. Drone fishing",
-      "D. Hydro-foiling"
-    ],
-    answer: "D"
+    choices: ["Trolling", "Fly fishing", "Drone fishing", "Hydro-foiling"],
+    answer: "Hydro-foiling"
   },
   {
     questionText:
       "Where is the home to the one of the world most famous fish, who also shares the name for the Captain of the submarine Nautilus in novel '20,000 Leagues Under The Sea?'",
     choices: [
-      "A. P. Sherman 42 Wallaby Way, Sidney, Australia",
-      "B. Loch Ness, Scotland",
-      "C. Dr. Evil's pool for sharks with *lasers*",
-      "D. Jiro's suhsi shop, Japan"
+      "P. Sherman 42 Wallaby Way, Sidney, Australia",
+      "Loch Ness, Scotland",
+      "Dr. Evil's pool for sharks with *lasers*",
+      "Jiro's suhsi shop, Japan"
     ],
-    answer: "A"
+    answer: "P. Sherman 42 Wallaby Way, Sidney, Australia"
   }
 ];
 
