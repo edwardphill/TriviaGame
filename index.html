@@ -5,46 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      Fisher Guiding's Gone fishin' trivia - the Fishing Trivia Game
+      Fisher Guiding's gone fishin' trivia - a fishing guessing game.
     </title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <div class="topnav">
+      <a class="active">
+        <img src="assets/images/Fisher_Icon_img.png" alt="Fisher Guiding"
+      /></a>
+
+      <a
+        href="https://www.fisherguiding.com/how-to-book-a-fishing-trip"
+        target="_blank"
+        >Explore</a
+      >
+      <a
+        href="https://www.fisherguiding.com/list-trips-with-fisher"
+        target="_blank"
+        >Sign Up</a
+      >
+    </div>
+
     <div class="container">
-      <div class="content">
-        <div class="h1">
-          Fisher Guiding<br />
-          <br />
-          Gone Fishin' Trivia
-        </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="h1">
+        Gone Fishin' Trivia
+      </div>
 
-        <div class="h2">
-          A simple timed trivia game to test your fishing knowledge. Click on
-          the correct answer to get the next question.
-        </div>
+      <div class="h2">
+        A simple timed trivia game to test your fishing knowledge. Click on the
+        correct answer to get the next question.
+      </div>
 
-        <div class="timer">
-          Time remaining:
-          <div id="timer"></div>
-        </div>
+      <div class="timer">
+        Time remaining:
+        <div id="timer"></div>
+      </div>
 
-        <div id="scoreCard">
-          <div class="p">Scorecard</div>
+      <div id="scoreCard">
+        <div class="p">Score Board</div>
 
-          <div class="p" id="correct">Correct:</div>
+        <div class="p" id="correct">Correct:</div>
 
-          <div class="p" id="incorrect">Incorrect:</div>
-        </div>
+        <div class="p" id="incorrect">Incorrect:</div>
+      </div>
 
-        <div id="question-card">
-          <div id="question"></div>
-          <div id="choice-A"></div>
-          <div id="choice-B"></div>
-          <div id="choice-C"></div>
-          <div id="choice-D"></div>
-        </div>
+      <div id="question-card">
+        <div id="question"></div>
+        <div id="choice-A"></div>
+        <div id="choice-B"></div>
+        <div id="choice-C"></div>
+        <div id="choice-D"></div>
       </div>
     </div>
+
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
