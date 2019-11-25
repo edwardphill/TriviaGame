@@ -11,7 +11,7 @@ hr {
 }
 
 .hero {
-    background-image: url(../images/05B92C9F-3DEA-4310-B683-B51301C11012.jpeg);
+    background-image: url(../images/cuda.jpg);
     width: 100vw;
     height: 50vh;
     background-repeat: no-repeat;
@@ -173,6 +173,9 @@ img {
     text-decoration: none;
     font-size: 17px;
     border: #cccccc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .h1 {
