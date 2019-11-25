@@ -12,8 +12,9 @@
   <body>
     <div class="topnav">
       <a class="active">
-        <img src="assets/images/Fisher_Icon_img.png" alt="Fisher Guiding"
-      /></a>
+        <img src="assets/images/Fisher_Icon_img.png" alt="Fisher Guiding" />
+        FISHER GUIDING</a
+      >
 
       <a
         href="https://www.fisherguiding.com/how-to-book-a-fishing-trip"
@@ -27,41 +28,45 @@
       >
     </div>
 
-    <div class="container">
-      <br />
-      <br />
-      <br />
-      <br />
-      <div class="h1">
-        Gone Fishin' Trivia
+    <section>
+      <div class="hero">
+        <div class="hero-text">
+          Gone Fishin' Trivia
+        </div>
       </div>
+    </section>
 
+    <main>
       <div class="h2">
         A simple timed trivia game to test your fishing knowledge. Click on the
         correct answer to get the next question.
       </div>
 
-      <div class="timer">
-        Time remaining:
-        <div id="timer"></div>
+      <div class="cards">
+        <div class="timer">
+          Time remaining:
+          <div id="timer"></div>
+        </div>
+
+        <div id="scoreCard">
+          <div class="p">Score Board</div>
+
+          <div class="p" id="correct">Correct:</div>
+
+          <div class="p" id="incorrect">Incorrect:</div>
+        </div>
       </div>
-
-      <div id="scoreCard">
-        <div class="p">Score Board</div>
-
-        <div class="p" id="correct">Correct:</div>
-
-        <div class="p" id="incorrect">Incorrect:</div>
-      </div>
-
+      <hr />
       <div id="question-card">
         <div id="question"></div>
+        <hr />
+        <br />
         <div id="choice-A"></div>
         <div id="choice-B"></div>
         <div id="choice-C"></div>
         <div id="choice-D"></div>
       </div>
-    </div>
+    </main>
 
     <script
       type="text/javascript"

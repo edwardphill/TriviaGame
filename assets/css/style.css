@@ -1,10 +1,35 @@
 body {
-    background-image: url(../images/05B92C9F-3DEA-4310-B683-B51301C11012.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
     margin: 0;
-    padding: 0;
+}
+
+hr {
+    width: 70%;
+    align-content: center;
+    color: lightgray;
+}
+
+.hero {
+    background-image: url(../images/05B92C9F-3DEA-4310-B683-B51301C11012.jpeg);
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 .timer {
@@ -32,21 +57,25 @@ body {
 }
 
 #question-card {
-    margin: 1%;
-    width: 70%;
-    padding: 2%;
+    width: 100%;
     align-content: center;
     border-radius: 5px;
     color: #333435;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #question {
     background-color: white;
     margin: 1%;
-    width: 70%;
+    width: auto;
     padding: 2%;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #scoreCard {
@@ -64,7 +93,7 @@ body {
 }
 
 #choice-A {
-    background-color: #98ECC3;
+    background-color: lightgray;
     height: 100px;
     width: 150px;
     margin: 1%;
@@ -74,7 +103,7 @@ body {
 }
 
 #choice-B {
-    background-color: #98ECC3;
+    background-color: lightgray;
     height: 100px;
     width: 150px;
     margin: 1%;
@@ -84,7 +113,7 @@ body {
 }
 
 #choice-C {
-    background-color: #98ECC3;
+    background-color: lightgray;
     height: 100px;
     width: 150px;
     margin: 1%;
@@ -94,7 +123,7 @@ body {
 }
 
 #choice-D {
-    background-color: #98ECC3;
+    background-color: lightgray;
     height: 100px;
     width: 150px;
     margin: 1%;
@@ -103,23 +132,37 @@ body {
     display: inline-block;
 }
 
+.cards {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .active {
     background-color: #0B2D3D;
     font-size: 24px;
     margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 img {
-    height: 30px;
+    height: 20px;
     width: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .topnav {
     overflow: hidden;
     background-color: #0B2D3D;
-    width: 100%;
+    width: 100vw;
     display: flex;
     position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .topnav a {
@@ -134,28 +177,26 @@ img {
 
 .h1 {
     color: white;
-    background: #0B2D3D;
-    width: 70%;
+    width: 100%;
     height: auto;
     text-align: center;
     align-content: center;
+    text-align: center;
     padding: 2%;
     font-size: large;
     border-radius: 5px;
-    margin: 5px
+    margin: 5px;
 }
 
 .h2 {
     color: white;
-    background: #0088c5;
-    width: 70%;
+    background: #98ECC3;
+    width: 100vw;
     height: auto;
     text-align: center;
     align-content: center;
     font-size: medium;
-    margin: 5px;
     padding: 2%;
-    border-radius: 5px;
 }
 
 .h4 {
@@ -163,7 +204,7 @@ img {
 }
 
 #choice-A:hover, #choice-B:hover, #choice-C:hover, #choice-D:hover {
-    background-color: #F16658;
+    background-color: #0088c5;
     color: white;
 }
 
