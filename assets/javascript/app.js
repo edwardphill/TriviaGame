@@ -59,7 +59,7 @@ var questions = [
   },
   {
     questionText:
-      "WHat address is home to one of the world's most famous fish, who also happens to share the name with the Captain of the submarine 'Nautilus' in the novel '20,000 Leagues Under The Sea?'",
+      "What address is home to one of the world's most famous fish, who also happens to share the name with the Captain of the submarine 'Nautilus' in the novel '20,000 Leagues Under The Sea?'",
     choices: [
       "P. Sherman 42 Wallaby Way, Sidney, Australia",
       "Loch Ness, Scotland",
