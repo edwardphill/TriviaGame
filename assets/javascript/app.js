@@ -1,20 +1,34 @@
-// Psudocode from MRusso
+var number = 20;
+var intervalId;
 
-/*
-var currentQuestion = 0,
-  var timeLeft = 20;
-  var questionTimer = setInterval((timeLeft--) => {
-      if (timeLeft <= 0) {
-currentQuestion++;
-          renderTimesUpMessage ();
-          setTimeout(() => {
-              renderQuestion
-          }, timeout);
-      }
-      
-  }, 1000);
+function run() {
+  clearInterval(intervalId);
+  intervalId = setInterval(decrement, 1000);
+}
 
-  */
+function decrement() {
+  //  Decrease number by one.
+  number--;
+  $("#timer").html("<h2>" + number + "</h2>");
+  if (number === 0) {
+    stop();
+    alert("Time Up");
+  }
+}
+
+function stop() {
+  //  Clears our intervalId
+  //  We just pass the name of the interval
+  //  to the clearInterval function.
+  clearInterval(intervalId);
+}
+
+$("#start").on("click", run);
+
+if (number < 10) {
+  number = "0" + number;
+}
+
 var i;
 var questions = [
   {
@@ -70,15 +84,9 @@ var questions = [
   }
 ];
 
-$("#timer").text("00:00");
-
 //  Start on click.
-$(window).on("click", function() {
-  //  Set the button alert's timeout to run three seconds after the function's called.
-  delayButtonAlert = setTimeout(function() {
-    console.log("10 seconds is up, question expires");
-  }, 10 * 1000);
-});
+
+//  Set the button alert's timeout to run three seconds after the function's called.
 
 var math = Math.floor(Math.random() * questions.length);
 console.log(math);
@@ -89,11 +97,10 @@ $("#choice-A").html(questions[math].choices[0]);
 $("#choice-B").html(questions[math].choices[1]);
 $("#choice-C").html(questions[math].choices[2]);
 $("#choice-D").html(questions[math].choices[3]);
-//}
+//
 
-if ((questions[i].answer = questions[i].choices[j])) {
-  //add to total score, stop timeout
-}
+// if ((questions[1].answer = questions[1].choices[1])) {
+//add to total score, stop timeout
 
 // display only q1,
 // index or answer
@@ -102,63 +109,31 @@ if ((questions[i].answer = questions[i].choices[j])) {
 // buid element for choice, add click listener for all chocies, as soon as click choice, cancel timer,
 // firs check to see if = to answer, then empty container, the render results, "you got the anser correct" set timeout for 3 second, empy success
 // current quesiton 1, render
-
-/*
-  
-
-var timeResest;
-var wins = 0;
-var losses = 0;
-var correct = 0;
-var incorrec = 0;
-
-for (var i = 0; i < questions.length; i++) {
-  var response = $("");
-}
-
-// write one parent element container in html, write a function to add innerhtm function to run through array when called 
-
-
+// var timeResest;
+// var wins = 0;
+// var losses = 0;
+// var correct = 0;
+// var incorrec = 0;
+// for (var i = 0; i < questions.length; i++)   var response = $("");}
+// write one parent element container in html, write a function to add innerhtm function to run through array when called
 // once page loads, start timer
+//  Set timeout to run 10 seconds after page loads for q1
+// Clear the button alert's timeout.
+// if click button and guess correct answer, === display correct,
+// click correctAnswer
+// log questions
 
+// display next question
 
+//reset the timer
 
+// if click != answer display incorrect
 
+// log loss
 
-$("#start").on("reload", function() {
-  //  Set timeout to run 10 seconds after page loads for q1
+// display next question
 
-  if (correct) 
-  
-  $("#correct").on("click", function() {
-    // Clear the button alert's timeout.
-    clearTimeout(correct);
-  });
-  // if click button and guess correct answer, === display correct, 
-  
-  timeResest = setTimeout(function() {
-    if ()  // click correctAnswer
-  
-}, 10 * 1000);
-});
-  // log questions  
-
-  // display next question
-
-  //reset the timer
-
-  else () 
-  
-  // if click != answer display incorrect
-
-  // log loss
-
-  // display next question
-
-  // run again
-  
-
-
+// run again
 
 // set interval count down, var counter decriment
 // if counter gtes to 0 move on to next question
@@ -185,4 +160,15 @@ $("#start").on("reload", function() {
 // if the LETTER element you click on in q3 is correct, ++ score
 // if the LETTER element you click on in q4 is correct, ++ score
 // if the LETTER element you click on in q5 is correct, ++ score
-// if the LETTER element you click on in q6 is correct, ++ score */
+// if the LETTER element you click on in q6 is correct, ++ score
+
+// Psudocode from MRusso
+
+/* if (timer === 0) {
+  currentQuestion++;
+  renderTimesUpMessage();
+  setTimeout(() => {
+    renderQuestion;
+  }, timeout);
+}
+1000; */

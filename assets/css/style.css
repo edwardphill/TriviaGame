@@ -1,225 +1,245 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    height: 100%;
-    margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0;
 }
 
 hr {
-    width: 70%;
-    align-content: center;
-    color: lightgray;
+  width: 70%;
+  align-content: center;
+  color: lightgray;
 }
 
 .hero {
-    background-image: url(../images/cuda.jpg);
-    width: 100vw;
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url(../images/cuda.jpg);
+  width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-text {
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
-.timer {
-    background-color: #F16658;
-    color: white;
-    width: 20%;
-    height: auto;
-    text-align: center;
-    align-content: center;
-    font-size: medium;
-    margin: 1%;
-    padding: 2%;
-    border-radius: 5px;
-    display: inline-block;
+.timerCard {
+  background-color: #f16658;
+  color: white;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  font-size: medium;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #timer {
-    background-color: #F16658;
-    color: white;
-    height: auto;
-    text-align: center;
-    align-content: center;
-    font-size: medium;
-    padding: 2%;
+  background-color: #f16658;
+  color: white;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  font-size: medium;
+  padding: 2%;
+}
+
+#start {
+  background-color: #0088c5;
+  height: 50px;
+  width: 150px;
+  margin-left: 40%;
+  padding: 1%;
+  border-radius: 5px;
+  display: inline-block;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #question-card {
-    width: 100%;
-    align-content: center;
-    border-radius: 5px;
-    color: #333435;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  width: 100%;
+  align-content: center;
+  border-radius: 5px;
+  color: #333435;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #question {
-    background-color: white;
-    margin: 1%;
-    width: auto;
-    padding: 2%;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: white;
+  margin: 1%;
+  width: auto;
+  padding: 2%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #scoreCard {
-    background-color: #F16658;
-    color: white;
-    width: 20%;
-    height: auto;
-    text-align: center;
-    align-content: center;
-    font-size: medium;
-    margin: 1%;
-    padding: 2%;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #f16658;
+  color: white;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  font-size: medium;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #choice-A {
-    background-color: lightgray;
-    height: 100px;
-    width: 150px;
-    margin: 1%;
-    padding: 1%;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #98ecc3;
+  height: 100px;
+  width: 150px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #choice-B {
-    background-color: lightgray;
-    height: 100px;
-    width: 150px;
-    margin: 1%;
-    padding: 1%;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #98ecc3;
+  height: 100px;
+  width: 150px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #choice-C {
-    background-color: lightgray;
-    height: 100px;
-    width: 150px;
-    margin: 1%;
-    padding: 1%;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #98ecc3;
+  height: 100px;
+  width: 150px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #choice-D {
-    background-color: lightgray;
-    height: 100px;
-    width: 150px;
-    margin: 1%;
-    padding: 1%;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #98ecc3;
+  height: 100px;
+  width: 150px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .cards {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .active {
-    background-color: #0B2D3D;
-    font-size: 24px;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: #0b2d3d;
+  font-size: 24px;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 img {
-    height: 20px;
-    width: auto;
-    justify-content: center;
-    align-items: center;
+  height: 20px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #0B2D3D;
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  overflow: hidden;
+  background-color: #0b2d3d;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border: #cccccc;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: #cccccc;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .h1 {
-    color: white;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    align-content: center;
-    text-align: center;
-    padding: 2%;
-    font-size: large;
-    border-radius: 5px;
-    margin: 5px;
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  text-align: center;
+  padding: 2%;
+  font-size: large;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .h2 {
-    color: #0088c5;
-    width: 100vw;
-    height: auto;
-    text-align: center;
-    align-content: center;
-    font-size: 2rem;
-    font-weight: 500;
-    padding: 2%;
+  color: #0088c5;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2%;
 }
 
 .h3 {
-    color: #0088c5;
-    width: 100vw;
-    height: auto;
-    text-align: center;
-    align-content: center;
-    font-size: 1.5rem;
-    font-weight: 150;
-    padding: 2%;
+  color: #0088c5;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  font-size: 1.5rem;
+  font-weight: 150;
+  padding: 2%;
 }
 
-#choice-A:hover, #choice-B:hover, #choice-C:hover, #choice-D:hover {
-    background-color: #0088c5;
-    color: white;
+#choice-A:hover,
+#choice-B:hover,
+#choice-C:hover,
+#choice-D:hover {
+  background-color: #0088c5;
+  color: white;
 }
 
+#start:hover {
+  background-color: #98ecc3;
+}
 .topnav::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
